@@ -2,6 +2,63 @@
     "allKeywords": [],
     "actions": [
         {
+            "id": "f3a98b6c-d48a-4b48-8b73-70947d950609",
+            "details": "PresQT Transfer from OSF to GitHub",
+            "actionDateTime": "2020-08-06 15:26:28.319711+00:00",
+            "actionType": "resource_transfer_in",
+            "sourceTargetName": "osf",
+            "sourceUsername": "PresQT QA",
+            "destinationTargetName": "github",
+            "destinationUsername": "PresQT-QA-TEST",
+            "keywords": {
+                "sourceKeywordsAdded": [],
+                "sourceKeywordsEnhanced": [],
+                "enhancer": "scigraph"
+            },
+            "files": {
+                "created": [
+                    {
+                        "destinationPath": "/Test_Repo/spotify_slack.gif",
+                        "destinationHashes": {},
+                        "failedFixityInfo": [
+                            {
+                                "NewGeneratedHash": "91ee81f836578692b2d431b9119ff86b",
+                                "algorithmUsed": "md5",
+                                "reasonFixityFailed": "Either the destination did not provide a hash or fixity failed during upload."
+                            }
+                        ],
+                        "title": "spotify_slack.gif",
+                        "sourceHashes": {
+                            "md5": "91ee81f836578692b2d431b9119ff86b",
+                            "sha256": "dfa96b13b49601d97880871140f1e53dd03259aba4dd1b7632ff5c9dba4d1093"
+                        },
+                        "sourcePath": "/SpotifySlackStatus/osfstorage/images/spotify_slack.gif",
+                        "extra": {
+                            "id": "5f1b022c5fdf62006e049ec2",
+                            "parent_project_id": "xht3m",
+                            "endpoint": "https://api.osf.io/v2/files/5f1b022c5fdf62006e049ec2/",
+                            "download_url": "https://files.osf.io/v1/resources/xht3m/providers/osfstorage/5f1b022c5fdf62006e049ec2",
+                            "upload_url": "https://files.osf.io/v1/resources/xht3m/providers/osfstorage/5f1b022c5fdf62006e049ec2",
+                            "delete_url": "https://files.osf.io/v1/resources/xht3m/providers/osfstorage/5f1b022c5fdf62006e049ec2",
+                            "last_touched": null,
+                            "date_modified": "2020-07-24T15:45:48.351318Z",
+                            "current_version": 1,
+                            "date_created": "2020-07-24T15:45:48.351318Z",
+                            "provider": "osfstorage",
+                            "path": "/5f1b022c5fdf62006e049ec2",
+                            "current_user_can_comment": true,
+                            "guid": null,
+                            "checkout": null,
+                            "tags": [],
+                            "size": 889647
+                        }
+                    }
+                ],
+                "updated": [],
+                "ignored": []
+            }
+        },
+        {
             "id": "7ebdb40e-aff2-4975-b1f5-54f68b927e81",
             "details": "PresQT Transfer from OSF to GitHub",
             "actionDateTime": "2020-08-06 15:24:27.823041+00:00",
