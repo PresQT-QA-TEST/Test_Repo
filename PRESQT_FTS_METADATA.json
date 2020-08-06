@@ -2,6 +2,63 @@
     "allKeywords": [],
     "actions": [
         {
+            "id": "b917f6f2-dbd3-4f62-9323-7ea498db8c42",
+            "details": "PresQT Transfer from OSF to GitHub",
+            "actionDateTime": "2020-08-06 15:22:41.372360+00:00",
+            "actionType": "resource_transfer_in",
+            "sourceTargetName": "osf",
+            "sourceUsername": "PresQT QA",
+            "destinationTargetName": "github",
+            "destinationUsername": "PresQT-QA-TEST",
+            "keywords": {
+                "sourceKeywordsAdded": [],
+                "sourceKeywordsEnhanced": [],
+                "enhancer": "scigraph"
+            },
+            "files": {
+                "created": [
+                    {
+                        "destinationPath": "/Test_Repo/Study4_COVID19_Closeness_SocialDistancing.sav",
+                        "destinationHashes": {},
+                        "failedFixityInfo": [
+                            {
+                                "NewGeneratedHash": "5fa977c424a87077ff36fe8960a16ba7",
+                                "algorithmUsed": "md5",
+                                "reasonFixityFailed": "Either the destination did not provide a hash or fixity failed during upload."
+                            }
+                        ],
+                        "title": "Study4_COVID19_Closeness_SocialDistancing.sav",
+                        "sourceHashes": {
+                            "md5": "5fa977c424a87077ff36fe8960a16ba7",
+                            "sha256": "0d734dbb09adc628496b8aff806d58b5c39e13eb48ec0a4a1cb8a32dd9815ac3"
+                        },
+                        "sourcePath": "/Covid-19/osfstorage/osfstorage/Study4_COVID19_Closeness_SocialDistancing.sav",
+                        "extra": {
+                            "id": "5f244c655f705a00fd619ff9",
+                            "parent_project_id": "wvy73",
+                            "endpoint": "https://api.osf.io/v2/files/5f244c655f705a00fd619ff9/",
+                            "download_url": "https://files.osf.io/v1/resources/wvy73/providers/osfstorage/5f244c655f705a00fd619ff9",
+                            "upload_url": "https://files.osf.io/v1/resources/wvy73/providers/osfstorage/5f244c655f705a00fd619ff9",
+                            "delete_url": "https://files.osf.io/v1/resources/wvy73/providers/osfstorage/5f244c655f705a00fd619ff9",
+                            "last_touched": null,
+                            "date_modified": "2020-07-31T16:52:53.459542Z",
+                            "current_version": 1,
+                            "date_created": "2020-07-31T16:52:53.459542Z",
+                            "provider": "osfstorage",
+                            "path": "/5f244c655f705a00fd619ff9",
+                            "current_user_can_comment": true,
+                            "guid": null,
+                            "checkout": null,
+                            "tags": [],
+                            "size": 470961
+                        }
+                    }
+                ],
+                "updated": [],
+                "ignored": []
+            }
+        },
+        {
             "id": "febbe125-112e-447f-bda2-590463673f9f",
             "details": "PresQT Transfer from GitHub to OSF",
             "actionDateTime": "2020-07-31 17:05:36.410241+00:00",
